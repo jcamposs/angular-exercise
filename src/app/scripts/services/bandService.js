@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('dataResource', ['ngResource'])
+angular.module('bandService', ['ngResource'])
 
 .factory('bandService', ['$resource', function ($resource) {
     var urlBase = './app';
