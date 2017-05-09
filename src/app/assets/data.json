@@ -1,0 +1,22 @@
+{
+  "bands": [
+    {
+      "id": "the-rolling-stones",
+      "video": "https://www.youtube.com/embed/O4irXQhgMqg",
+      "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se fundó en abril de 19622 por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Ian Stewart y Charlie Watts.2 Brian Jones fue despedido en junio de 1969, falleciendo tres semanas después, siendo reemplazado por el guitarrista Mick Taylor, que dejaría el grupo en 1975 y sería a su vez reemplazado por Ron Wood. Con el retiro de Bill Wyman en 1993 se incluyó al bajista Darryl Jones que, aunque toca con la banda desde la grabación del álbum Voodoo Lounge en 1994, no es un miembro oficial.",
+      "img": "http://elbolivianoenvivo.com/wp-content/uploads/2016/12/The-Rolling-Stones-pop-art-PPcorn.jpeg"
+    },
+    {
+      "id": "the-beatles",
+      "video": "https://www.youtube.com/embed/b-VAxGJdJeQ",
+      "description": "The Beatles fue una banda de pop/rock inglesa activa durante la década de 1960, y reconocida como la más exitosa comercialmente y la más alabada por la crítica en la historia de la música popular.1 2 3 4 5 Formada en Liverpool, estuvo constituida desde 1962 por John Lennon (guitarra rítmica, vocalista), Paul McCartney (bajo, vocalista), George Harrison (guitarra solista, vocalista) y Ringo Starr (batería, vocalista). Enraizada en el skiffle y el rock and roll de los años 1950, la banda trabajó más tarde con distintos géneros musicales, que iban desde las baladas pop hasta el rock psicodélico, incorporando a menudo elementos clásicos, entre otros, de forma innovadora en sus canciones. La naturaleza de su enorme popularidad, que había emergido primeramente con la moda de la «Beatlemanía», se transformó al tiempo que sus composiciones se volvieron más sofisticadas.",
+      "img": "https://s-media-cache-ak0.pinimg.com/originals/c1/d2/b9/c1d2b9de77d6298f1b2cd29690ab6578.jpg"
+    },
+    {
+      "id": "queen",
+      "video": "https://www.youtube.com/embed/HgzGwKwLmgM",
+      "description": "Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún es considerada activa.",
+      "img": "https://userscontent2.emaze.com/images/f7898a60-93fd-4301-a4c0-870402171051/ae80cf39eac00e583f0ad015fade9b6a.jpg"
+    }
+  ]
+}
