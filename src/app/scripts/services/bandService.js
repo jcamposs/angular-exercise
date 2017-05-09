@@ -7,7 +7,7 @@ angular.module('bandService', ['ngResource'])
 
     var getBands = function () {
       return $resource(
-        urlBase + '/assets/data.json', {}, {
+        urlBase + '/resources/bands.json', {}, {
         get: {
           method: 'GET',
           isArray: false
