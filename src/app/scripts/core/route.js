@@ -62,7 +62,4 @@ angular.module("SKPBQ")
     enabled: true,
     requireBase: false
   });
-}])
-.run(['ngMeta', function(ngMeta) {
-  ngMeta.init();
 }]);
