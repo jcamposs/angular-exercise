@@ -6,7 +6,13 @@
 'use strict';
 
 angular.module("SKPBQ")
-.config(['$routeProvider', '$locationProvider', 'ngMetaProvider', function($routeProvider, $locationProvider) {
+.config(['$routeProvider', '$locationProvider', 'ngMetaProvider', function($routeProvider, $locationProvider, ngMetaProvider) {
+
+  //Set defaults for arbitrary tags
+  ngMetaProvider.setDefaultTag('title', 'Angular Rocks');
+  ngMetaProvider.setDefaultTag('description', 'Esto es la descripción por defecto');
+  ngMetaProvider.setDefaultTag('keywords', 'angular rocks default');
+
   $routeProvider.
   when('/', {
     controller: 'mainController',
