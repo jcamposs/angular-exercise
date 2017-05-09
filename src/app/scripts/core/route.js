@@ -13,15 +13,15 @@ angular.module("SKPBQ").config(['$routeProvider', '$locationProvider', function(
       templateUrl: 'app/templates/layout.html'
     }).
     when('/the-rolling-stones', {
-      templateUrl: 'app/templates/partials/child-view1.html',
+      templateUrl: 'app/templates/partials/band.html',
       controller: 'bandController',
     }).
     when('/the-beatles', {
-      templateUrl: 'app/templates/partials/child-view1.html',
+      templateUrl: 'app/templates/partials/band.html',
       controller: 'bandController',
     }).
     when('/queen', {
-      templateUrl: 'app/templates/partials/child-view1.html',
+      templateUrl: 'app/templates/partials/band.html',
       controller: 'bandController',
     });
 

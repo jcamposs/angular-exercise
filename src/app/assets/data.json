@@ -2,21 +2,24 @@
   "bands": [
     {
       "id": "the-rolling-stones",
+      "title": "The Rolling Stones",
       "video": "https://www.youtube.com/embed/O4irXQhgMqg",
-      "description": "The Rolling Stones es una banda británica de rock originaria de Londres. La banda se fundó en abril de 19622 por Brian Jones, Mick Jagger, Keith Richards, Bill Wyman, Ian Stewart y Charlie Watts.2 Brian Jones fue despedido en junio de 1969, falleciendo tres semanas después, siendo reemplazado por el guitarrista Mick Taylor, que dejaría el grupo en 1975 y sería a su vez reemplazado por Ron Wood. Con el retiro de Bill Wyman en 1993 se incluyó al bajista Darryl Jones que, aunque toca con la banda desde la grabación del álbum Voodoo Lounge en 1994, no es un miembro oficial.",
-      "img": "http://elbolivianoenvivo.com/wp-content/uploads/2016/12/The-Rolling-Stones-pop-art-PPcorn.jpeg"
+      "description": "The Rolling Stones are an English rock band formed in London in 1962. The original line-up consisted of Brian Jones (rhythm guitar, harmonica), Mick Jagger (lead vocals), Keith Richards (lead guitar, backing vocals), Bill Wyman (bass), Charlie Watts (drums), and Ian Stewart (piano). Stewart was removed from the official line-up in 1963 but continued as a touring member until his death in 1985. Jones left the band less than a month prior to his death in 1969, having already been replaced by Mick Taylor, who remained until 1974. After Taylor left the band, Ronnie Wood took his place in 1975 and has been on guitar in tandem with Richards ever since. Following Wyman's departure in 1993, Darryl Jones joined as their touring bassist. Other touring keyboardists for the band have been Nicky Hopkins (1967–82), Billy Preston (through the mid-1970s) and Chuck Leavell (1982-present). The band was first led by Jones, but after teaming as the band's songwriters, Jagger and Richards assumed leadership while Jones dealt with legal and personal troubles.",
+      "img": "http://cps-static.rovicorp.com/3/JPG_500/MI0004/132/MI0004132808.jpg?partner=allrovi.com"
     },
     {
       "id": "the-beatles",
-      "video": "https://www.youtube.com/embed/b-VAxGJdJeQ",
-      "description": "The Beatles fue una banda de pop/rock inglesa activa durante la década de 1960, y reconocida como la más exitosa comercialmente y la más alabada por la crítica en la historia de la música popular.1 2 3 4 5 Formada en Liverpool, estuvo constituida desde 1962 por John Lennon (guitarra rítmica, vocalista), Paul McCartney (bajo, vocalista), George Harrison (guitarra solista, vocalista) y Ringo Starr (batería, vocalista). Enraizada en el skiffle y el rock and roll de los años 1950, la banda trabajó más tarde con distintos géneros musicales, que iban desde las baladas pop hasta el rock psicodélico, incorporando a menudo elementos clásicos, entre otros, de forma innovadora en sus canciones. La naturaleza de su enorme popularidad, que había emergido primeramente con la moda de la «Beatlemanía», se transformó al tiempo que sus composiciones se volvieron más sofisticadas.",
-      "img": "https://s-media-cache-ak0.pinimg.com/originals/c1/d2/b9/c1d2b9de77d6298f1b2cd29690ab6578.jpg"
+      "title": "The Beatles",
+      "video": "https://www.youtube.com/embed/NCtzkaL2t_Y",
+      "description": "The Beatles were an English rock band formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential act of the rock era.[1] Rooted in skiffle, beat and 1950s rock and roll, the Beatles later experimented with several musical styles, ranging from pop ballads and Indian music to psychedelia and hard rock, often incorporating classical elements and unconventional recording techniques in innovative ways. In 1963 their enormous popularity first emerged as 'Beatlemania', and as the group's music grew in sophistication in subsequent years, led by primary songwriters Lennon and McCartney, they came to be perceived as an embodiment of the ideals shared by the counterculture of the 1960s.",
+      "img": "https://3.bp.blogspot.com/-cE8iwgyiG94/UGzpQrLav8I/AAAAAAAASlY/lXFIxWO5mcQ/s1600/abbey.jpg"
     },
     {
       "id": "queen",
-      "video": "https://www.youtube.com/embed/HgzGwKwLmgM",
-      "description": "Queen es una banda británica de rock formada en 1970 en Londres por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon. Si bien el grupo ha presentado bajas de dos de sus miembros (Mercury, fallecido en 1991, y Deacon, retirado en 1997), los integrantes restantes, May y Taylor, continúan trabajando bajo el nombre Queen, por lo que la banda aún es considerada activa.",
-      "img": "https://userscontent2.emaze.com/images/f7898a60-93fd-4301-a4c0-870402171051/ae80cf39eac00e583f0ad015fade9b6a.jpg"
+      "title": "Queen",
+      "video": "https://www.youtube.com/embed/fJ9rUzIMcZQ",
+      "description": "Queen are a British rock band that formed in London in 1970. Their classic line-up was Freddie Mercury (lead vocals, piano), Brian May (lead guitar, vocals), Roger Taylor (drums, vocals), and John Deacon (bass guitar). Queen's earliest works were influenced by progressive rock, hard rock and heavy metal, but the band gradually ventured into more conventional and radio-friendly works by incorporating further styles, such as arena rock and pop rock, into their music.",
+      "img": "http://media.dlccdn.com/artistas/q/queen/queen_o.jpg"
     }
   ]
 }
