@@ -15,7 +15,7 @@ angular.module("SKPBQ")
 
   $routeProvider.
   when('/', {
-    controller: 'mainController',
+    controller: 'homeController',
     templateUrl: 'app/templates/home.html'
   }).
   when('/foo', {
