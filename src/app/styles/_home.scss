@@ -1,0 +1,231 @@
+$large-breakpoint: 1200px;
+$medium-breakpoint: 480px;
+$small-breakpoint: 320px;
+
+.header {
+  width: $small-breakpoint;
+  margin: 100px auto 0 auto;
+  height: 400px;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  position: relative;
+
+  @media (min-width: $medium-breakpoint) {
+    width: $medium-breakpoint;
+  }
+
+  @media (min-width: $large-breakpoint) {
+    width: $large-breakpoint;
+  }
+}
+
+.header__title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #111;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+
+  @media (min-width: $medium-breakpoint) {
+    font-size: 64px;
+  }
+
+  @media (min-width: $large-breakpoint) {
+    font-size: 124px;
+  }
+}
+
+.header__shape {
+  position: absolute;
+  z-index: 1;
+
+  &.block--red {
+    width: 100px;
+    height: 100px;
+    background: rgba(255,0,115,0.5);
+    top: 0;
+    left: 0;
+    animation: squiggle-one 16s linear infinite;
+
+    @media (min-width: $medium-breakpoint) {
+      animation: squiggle-one-medium 16s linear infinite;
+    }
+
+    @media (min-width: $large-breakpoint) {
+      animation: squiggle-one-large 16s linear infinite;
+    }
+  }
+
+  &.triangle--blue {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 120px solid rgba(0,184,255,0.5);
+    bottom: 30px;
+    left: 50%;
+    animation:squiggle-two 9s linear infinite;
+
+    @media (min-width: $medium-breakpoint) {
+      animation: squiggle-two-medium 9s linear infinite;
+    }
+    @media (min-width: $large-breakpoint) {
+      animation: squiggle-two-large 9s linear infinite;
+    }
+  }
+
+  &.circle--green {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(38,255,65,0.5);
+    top: 100px;
+    right: 100px;
+    animation: squiggle-three 20s linear infinite;
+
+    @media (min-width: $medium-breakpoint) {
+      animation: squiggle-three-medium 20s linear infinite;
+    }
+
+    @media (min-width: $large-breakpoint) {
+      animation: squiggle-three-large 20s linear infinite;
+    }
+  }
+
+  &.trap--yellow {
+    width: 120px;
+    height: 120px;
+    background: rgba(255,255,0,0.5);
+    top: 100px;
+    left: 50%;
+    transform: skew(20deg, 0deg);
+    animation: squiggle-four 23s linear infinite;
+
+    @media (min-width: $medium-breakpoint) {
+      animation: squiggle-four-medium 23s linear infinite;
+    }
+
+    @media (min-width: $large-breakpoint) {
+      animation: squiggle-four-large 23s linear infinite;
+    }
+  }
+}
+
+.links-list {
+  max-width: 420px;
+  margin: 30px auto;
+}
+.links-list__item {
+  font-size: 14px;
+  position: relative;
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #f8f8f8;
+
+  @media (min-width: $medium-breakpoint) {
+    font-size:18px;
+  }
+
+  @media (min-width: $large-breakpoint) {
+    font-size:24px;
+  }
+
+  &:last-child {
+    border-bottom:none;
+  }
+}
+
+/* ANIMATIONS */
+@mixin first-squiggle($width:300px) {
+  0% {
+    transform:translate(0px,0px);
+  }
+  25% {
+    transform:translate($width/2, 100px) rotate(45deg);
+  }
+  50% {
+    transform:translate($width/1.25, 300px) rotate(190deg);
+  }
+  75% {
+    transform:translate($width - 100, 50px) rotate(30deg);
+  }
+}
+
+@mixin second-squiggle($width:300px) {
+  0% {
+    transform:translate(0px,0px) rotate(deg);
+  }
+  25% {
+    transform:translate(-$width/5, 0px) rotate(-24deg);
+  }
+}
+
+@mixin third-squiggle($width:300px) {
+  0% {
+    transform:translate(0px,0px) scale(1,1);
+  }
+  25% {
+    transform:translate($width/15, 200px) scale(0.8,0.8);
+  }
+  50% {
+    transform:translate(-$width/2.2, -100px) scale(1.3,1.3);
+  }
+  75% {
+    transform:translate(-$width/2, 30px) scale(1.1,1.1);
+  }
+}
+
+@mixin fourth-squiggle($width:300px) {
+  0% {
+    transform:skew(20deg,0deg) translate(0px,0px);
+  }
+  25% {
+    transform:skew(20deg,0deg) translate(-$width/2, 100px) rotate(60deg);
+  }
+  50% {
+    transform:skew(20deg,0deg) translate(-$width/2.2, 100px) rotate(-100deg);
+  }
+}
+
+@keyframes squiggle-one {
+  @include first-squiggle();
+}
+@keyframes squiggle-two {
+  @include second-squiggle();
+}
+@keyframes squiggle-three {
+  @include third-squiggle();
+}
+@keyframes squiggle-four {
+  @include fourth-squiggle();
+}
+
+@keyframes squiggle-one-medium {
+  @include first-squiggle($medium-breakpoint);
+}
+@keyframes squiggle-two-medium {
+  @include second-squiggle($medium-breakpoint);
+}
+@keyframes squiggle-three-medium {
+  @include third-squiggle($medium-breakpoint);
+}
+@keyframes squiggle-four-medium {
+  @include fourth-squiggle($medium-breakpoint);
+}
+
+@keyframes squiggle-one-large {
+  @include first-squiggle($large-breakpoint);
+}
+@keyframes squiggle-two-large {
+  @include second-squiggle($large-breakpoint);
+}
+@keyframes squiggle-three-large {
+  @include third-squiggle($large-breakpoint);
+}
+@keyframes squiggle-four-large {
+  @include fourth-squiggle($large-breakpoint);
+}

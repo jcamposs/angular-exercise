@@ -1,9 +1,5 @@
 .page-artist {
-  background:
-  linear-gradient(
-    1000deg,
-    #56a497
-  ,#9966cc);
+  background: linear-gradient(1000deg, #56a497 ,#9966cc);
   color:#dff6eb;
 }
 
@@ -40,11 +36,6 @@
   }
 }
 
-@keyframes pop {
-  0% {
-    transform: scale(0) rotate(0deg);
-} }
-
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -60,3 +51,10 @@
     height: 100%;
   }
 }
+
+/* ANIMATIONS */
+
+@keyframes pop {
+  0% {
+    transform: scale(0) rotate(0deg);
+} }

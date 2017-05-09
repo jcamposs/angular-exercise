@@ -10,7 +10,7 @@ angular.module("SKPBQ")
   $routeProvider.
   when('/', {
     controller: 'mainController',
-    templateUrl: 'app/templates/layout.html'
+    templateUrl: 'app/templates/home.html'
   }).
   when('/the-rolling-stones', {
     templateUrl: 'app/templates/partials/band.html',
