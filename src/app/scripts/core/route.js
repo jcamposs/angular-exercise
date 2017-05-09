@@ -1,11 +1,7 @@
-
-/**
- *ROUTE CONFIGURATIONS
- */
-
 'use strict';
 
-angular.module("SKPBQ")
+angular.module("kubide")
+
 .config(['$routeProvider', '$locationProvider', 'ngMetaProvider', function($routeProvider, $locationProvider, ngMetaProvider) {
 
   //Set defaults for arbitrary tags

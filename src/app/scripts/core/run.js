@@ -1,7 +1,5 @@
-// run block
-
 'use strict';
 
-angular.module("SKPBQ").run(['ngMeta', function(ngMeta) {
+angular.module("kubide").run(['ngMeta', function(ngMeta) {
   ngMeta.init();
 }]);

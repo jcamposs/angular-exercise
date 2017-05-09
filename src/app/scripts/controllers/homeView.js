@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("SKPBQ")
+angular.module("kubide")
 
 .controller('homeController', ['$scope', function ($scope) {
 
