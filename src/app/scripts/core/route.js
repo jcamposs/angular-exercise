@@ -19,10 +19,10 @@ angular.module("SKPBQ")
     templateUrl: 'app/templates/home.html'
   }).
   when('/foo', {
-    templateUrl: 'app/templates/partials/child-view2.html'
+    templateUrl: 'app/templates/partials/default.html'
   }).
   when('/bar', {
-    templateUrl: 'app/templates/partials/child-view2.html'
+    templateUrl: 'app/templates/partials/default.html'
   }).
   when('/the-rolling-stones', {
     templateUrl: 'app/templates/partials/band.html',
