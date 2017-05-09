@@ -126,6 +126,15 @@ $small-breakpoint: 320px;
   padding: 15px;
   border-bottom: 1px solid #f8f8f8;
 
+  a {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      color: #808080;
+    }
+  }
+
   @media (min-width: $medium-breakpoint) {
     font-size:18px;
   }
