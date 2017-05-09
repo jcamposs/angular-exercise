@@ -19,13 +19,13 @@ angular.module("SKPBQ")
     templateUrl: 'app/templates/home.html'
   }).
   when('/foo', {
-    templateUrl: 'app/templates/partials/default.html'
+    templateUrl: 'app/templates/default.html'
   }).
   when('/bar', {
-    templateUrl: 'app/templates/partials/default.html'
+    templateUrl: 'app/templates/default.html'
   }).
   when('/the-rolling-stones', {
-    templateUrl: 'app/templates/partials/band.html',
+    templateUrl: 'app/templates/band.html',
     controller: 'bandController',
     data: {
       meta: {
@@ -36,7 +36,7 @@ angular.module("SKPBQ")
     }
   }).
   when('/the-beatles', {
-    templateUrl: 'app/templates/partials/band.html',
+    templateUrl: 'app/templates/band.html',
     controller: 'bandController',
     data: {
       meta: {
@@ -47,7 +47,7 @@ angular.module("SKPBQ")
     }
   }).
   when('/queen', {
-    templateUrl: 'app/templates/partials/band.html',
+    templateUrl: 'app/templates/band.html',
     controller: 'bandController',
     data: {
       meta: {
