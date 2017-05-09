@@ -1,30 +1,32 @@
 
 /**
- *ROUTE CONFIGURATIONS    
+ *ROUTE CONFIGURATIONS
  */
 
 'use strict';
 
-angular.module("SKPBQ").config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+angular.module("SKPBQ").config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
-    $stateProvider
-        .state('home', {
-            url: '/home',
-            templateUrl: 'app/templates/layout.html'
-        })
-        .state('home.childView1', {
-            url: '/childView1',
-            templateUrl: 'app/templates/partials/child-view1.html'
-        })
-        .state('home.childView2', {
-            url: '/childView2',
-            templateUrl: 'app/templates/partials/child-view2.html'
-        })
-        .state('home.childView3', {
-            url: '/childView3',
-            templateUrl: 'app/templates/partials/child-view3.html'
-        });
+    $routeProvider.
+    when('/', {
+      controller: 'mainController',
+      templateUrl: 'app/templates/layout.html'
+    }).
+    when('/the-rolling-stones', {
+      templateUrl: 'app/templates/partials/child-view1.html',
+      controller: 'bandController',
+    }).
+    when('/the-beatles', {
+      templateUrl: 'app/templates/partials/child-view1.html',
+      controller: 'bandController',
+    }).
+    when('/queen', {
+      templateUrl: 'app/templates/partials/child-view1.html',
+      controller: 'bandController',
+    });
 
-    $urlRouterProvider.otherwise('/home/childView1');
-    
+    $locationProvider.html5Mode({
+      enabled: true,
+      requireBase: false
+    });
 }]);

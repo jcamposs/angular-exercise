@@ -13,6 +13,7 @@
     "angular-smart-table": "^2.1.7",
     "angular-ui-router": "^0.3.2",
     "angular-resource": "1.4.*",
+    "angular-route": "1.4.x",
     "bootstrap": "^3.3.7",
     "bootstrap-css": "^3.3.6",
     "lodash": "^4.17.4"

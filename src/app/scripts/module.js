@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('SKPBQ', ['ui.router', 'dataResource', 'toastr']);
+angular.module('SKPBQ', ['ngRoute', 'bandView', 'dataResource', 'toastr']);
