@@ -12,6 +12,12 @@ angular.module("SKPBQ")
     controller: 'mainController',
     templateUrl: 'app/templates/home.html'
   }).
+  when('/foo', {
+    templateUrl: 'app/templates/partials/child-view2.html'
+  }).
+  when('/bar', {
+    templateUrl: 'app/templates/partials/child-view2.html'
+  }).
   when('/the-rolling-stones', {
     templateUrl: 'app/templates/partials/band.html',
     controller: 'bandController',
