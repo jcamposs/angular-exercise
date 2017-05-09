@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('SKPBQ', ['ngRoute', 'bandView', 'bandService', 'toastr']);
+angular.module('SKPBQ', ['ngRoute', 'ngMeta', 'bandView', 'bandService', 'toastr']);
