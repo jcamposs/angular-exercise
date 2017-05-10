@@ -18,7 +18,7 @@
 4. Install dependencies
   ```bash
     npm install
-  bower install
+    bower install
   ```
 
 ## Usage
