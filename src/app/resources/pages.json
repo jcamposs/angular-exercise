@@ -1,0 +1,29 @@
+{
+  "pages": [
+    {
+      "id": "foo",
+      "title": "Foo",
+      "link": "/foo"
+    },
+    {
+      "id": "bar",
+      "title": "Bar",
+      "link": "/bar"
+    },
+    {
+      "id": "the-rolling-stones",
+      "title": "The Rolling Stones",
+      "link": "/the-rolling-stones"
+    },
+    {
+      "id": "the-beatles",
+      "title": "The Beatles",
+      "link": "/the-beatles"
+    },
+    {
+      "id": "queen",
+      "title": "Queen",
+      "link": "/queen"
+    }
+  ]
+}

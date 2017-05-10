@@ -4,9 +4,14 @@
 // endbower
 
 /*import all the new scss files that you create - Order is very important*/
-@import "mixins.scss";@import "layout.scss";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import "home.scss";
+@import "default.scss";
+@import "band.scss";
+
+body {
+  font-family: Roboto;
+}
 
 /*// injector
 // endinjector*/
-
-

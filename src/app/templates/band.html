@@ -1,0 +1,30 @@
+<div class="page-artist">
+  <div class="container">
+    <div class="row">
+      <div class="page-header col-xs-12">
+        <h1>{{band.title}}</h1>
+        <div class="header-image">
+          <img src="{{band.img}}" alt="{{band.title}}">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="page-content col-xs-12">
+        <div class="content-description">
+          <p>{{band.description}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="page-content">
+        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+          <div class="embed-container">
+            <iframe ng-src="{{trustSrc(band.video)}}" width="860" height="480" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
